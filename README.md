@@ -2,7 +2,6 @@ Code Workflow
 The Flask application you provided follows these steps:
 
 Startup and Configuration:
-
 The Flask application is initialized with the necessary configurations, including a secret key for flashing messages.
 Home Route (/):
 
