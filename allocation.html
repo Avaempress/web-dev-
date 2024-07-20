@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Allocation Result</title>
+    <style>
+        table.data {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table.data, table.data th, table.data td {
+            border: 1px solid black;
+        }
+        table.data th, table.data td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Room Allocation Result</h1>
+    <a href="/download_allocation">Download Allocation CSV</a>
+    <div>
+        {% for table in tables %}
+            {{ table|safe }}
+        {% endfor %}
+    </div>
+</body>
+</html>
