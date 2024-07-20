@@ -41,9 +41,9 @@ pip install flask
 Pandas:
 
 Install Pandas using pip:
-bash
-Copy code
+
 pip install pandas
+
 HTML Templates:
 
 Create the following HTML files in a templates folder in the same directory as your Flask app:
